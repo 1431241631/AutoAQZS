@@ -19,7 +19,6 @@ class AutoAnswer:
             self._answer_data = json.loads(f.read())
         if self._answer_data is None:
             print("题库提取失败！")
-            exit(0)
 
     def login(self, user_name: str, password: str, unit_code: int = 13):
         """
