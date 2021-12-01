@@ -2,7 +2,7 @@ from AutoAnswer import AutoAnswer
 
 
 def test_login():
-    AutoAnswer().login(user_name="181451080414", password="minami373")
+    AutoAnswer().login(user_name="", password="")
 
 
 def test_question_bank():
@@ -11,13 +11,13 @@ def test_question_bank():
 
 def test_match_answer():
     obj = AutoAnswer()
-    obj.login(user_name="181451080414", password="minami373")
+    obj.login(user_name="", password="")
     obj.match_answer()
 
 
 def test_auto():
     obj = AutoAnswer()
-    obj.login(user_name="181451080438", password="328114zyc")
+    obj.login(user_name="", password="")
     obj.auto()
 
 
